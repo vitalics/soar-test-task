@@ -1,0 +1,17 @@
+{
+  "name": "@soar/performance",
+  "version": "1.0.0",
+  "description": "K6 performance scripts",
+  "main": "index.js",
+  "scripts": {
+    "test:load": "k6 run --out json=k6-report/load.json --compatibility-mode=experimental_enhanced ./src/load.test.ts",
+    "test:stress": "k6 run --out json=k6-report/stress.json --compatibility-mode=experimental_enhanced ./src/stress.test.ts",
+    "test:bdd": "k6 run --out json=k6-report/bdd.json --compatibility-mode=experimental_enhanced ./src/bdd.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/k6": "0.54.2"
+  }
+}

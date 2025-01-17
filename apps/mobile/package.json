@@ -1,0 +1,33 @@
+{
+  "name": "@soar/mobile",
+  "version": "1.0.0",
+  "description": "A mobile task",
+  "scripts": {
+    "dx:install": "pnpm dlx appium-installer",
+    "dx:doctor": "pnpm exec appium-doctor",
+    "test": "wdio run ./wdio.conf.ts",
+    "report:serve": "allure serve ./allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "2.15.0"
+  },
+  "devDependencies": {
+    "@appium/doctor": "2.1.15",
+    "@types/node": "22.10.6",
+    "@wdio/allure-reporter": "9.5.0",
+    "@wdio/appium-service": "9.5.7",
+    "@wdio/cli": "9.5.7",
+    "@wdio/globals": "9.5.7",
+    "@wdio/globals/types": "link:@wdio/globals/types",
+    "@wdio/local-runner": "9.5.7",
+    "@wdio/mocha-framework": "9.5.0",
+    "allure-commandline": "2.32.0",
+    "appium-uiautomator2-driver": "3.9.9",
+    "expect-webdriverio": "5.0.5",
+    "tsx": "4.19.2",
+    "wdio-wait-for": "3.0.11"
+  }
+}

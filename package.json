@@ -1,0 +1,22 @@
+{
+  "name": "@soar/monorepo",
+  "version": "1.0.0",
+  "description": "A solar monorepo to show different kind of automation expertise",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "e2e": "pnpm --filter @soar/e2e run test task2",
+    "performance:load": "pnpm --filter @soar/performance run test:load",
+    "performance:stress": "pnpm --filter @soar/performance run test:stress",
+    "performance:bdd": "pnpm --filter @soar/performance run test:bdd",
+    "mobile": "pnpm --filter @soar/mobile run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "22.10.6",
+    "tsup": "8.3.5",
+    "tsx": "4.19.2",
+    "typescript": "5.7.3"
+  }
+}

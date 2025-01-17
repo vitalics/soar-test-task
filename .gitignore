@@ -1,0 +1,10 @@
+juice-shop/*
+node_modules/*
+.zed/*
+.vscode/*
+apps/*/output-results
+apps/*/allure-results
+apps/*/node_modules
+**/*.log
+apps/*/logs
+apps/*/.env
