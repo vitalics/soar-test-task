@@ -13,7 +13,7 @@ When we call `/` endpoint - backend perform `select * from users` table.
 
 # Steps to reproduce
 
-1. Call `<baseURL>`
+1. Call `GET <baseURL>`
 
 # Why this is an issue?
 

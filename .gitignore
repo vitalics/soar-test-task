@@ -8,3 +8,5 @@ apps/*/node_modules
 **/*.log
 apps/*/logs
 apps/*/.env
+**/.DS_Store
+.DS_Store
