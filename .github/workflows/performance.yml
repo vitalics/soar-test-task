@@ -2,9 +2,9 @@ name: Performance Tests
 
 on:
   push:
-    branches: ["?"] # update later
+    branches: ["example-branch"] # update later
   pull_request:
-    branches: ["?"] # update later
+    branches: ["example-branch"] # update later
 
 jobs:
   run-test:
